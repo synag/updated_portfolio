@@ -1,0 +1,331 @@
+/* :root{
+   --backgroundColor:#d8c3Ab;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+/* background color for the body is light brown */
+/* body{
+    background-color: var(--backgroundColor);
+} */
+
+/* Header .................................................................................. */
+
+/* Header color gredient is green */
+header{
+    background: #649173; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #649173, #dbd5a4); 
+  background: linear-gradient(to right, #649173, #dbd5a4);  
+}
+.jumbotron-fluid{
+    padding-bottom: 16em;
+}
+.jumbotron, .container{
+    padding-top: 10em;
+    margin-left: 7em;
+}
+.coverPhoto {
+    border-radius: 50%;
+  }
+/* This styles the H1 "Carl Benbow"  */
+header h1{
+line-height: 4em;
+font-size: 30px; 
+display: inline;
+padding-right: 1em;
+padding-top: 5px;
+padding-left: 10px;
+text-align: center;
+color: white;
+font-weight: bold;
+padding-bottom: 2px;
+}
+/* 
+
+header div{
+    display: flex;
+    -ms-flex-align: start;
+    justify-content: space-between
+   
+}
+/* Styles the anchor tags and the background as well adds padding */
+nav, a{
+    padding: 2em;
+    text-decoration: underline;
+    color: rgb(4, 20, 4);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* This class is centered around a div above the image and is the relative position to add text above the image */
+.box-relative{
+    position: relative;
+}
+
+/* Formats the header image */
+/* .box-relative img{
+    height: 500px;
+    width: 100%; */
+/* }   */
+
+/* block the css is absolute position of the h2 and goal is to position text at the center of the image.  */
+header h2{
+position: absolute;
+top:40%;
+bottom: 50%;
+right:30%;
+left: 30%;
+color: white;
+font-weight: bold;
+font-size: 4em;
+
+}
+
+
+/* Main .................................................................................. *
+/* Main creates the container to format the child elements within the contatiner */
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* 
+/* About Me class is the flex element that allows the child h2 (about me) and p tag to position each element side by side.  */
+.about-me{
+    background-color: var(--backgroundColor);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+
+}
+
+/* styles the h2 and adds boarder to the right with padding to seperate the p tag text.  */
+.about-me h2 {
+    border-right: solid black;
+    margin-left: 10%;
+    font-size: 30px;
+    text-align: right;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    padding-right: 14px;
+}
+
+/* styles the P tag, adds margin top to better position text next to the h2 black boarder.Line height creates space between the lines of the text.*/
+
+.about-me p{
+    margin-top: 2em;
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 1.5;
+    margin-bottom: 2em;
+}
+
+/* Article 1 on the main............................................................. */
+
+.flex-container-2{
+    display: flex;
+    justify-content: left;
+    background-color: var(--backgroundColor);
+    /* margin-bottom: 2em; */
+    padding-bottom: 5em;
+}
+
+/* styles the "work" text h2 */
+ #work{
+    border-right: solid black;
+    margin-left: 10%;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 25px;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
+/* Article 2 on the main............................................................... */
+/* styles all the boxes on main and is the relative position to the box-labels */
+.box-1,
+.box-2,
+.box-3,
+.box-5,
+.box-6{
+    padding-right: 100%;
+    height: 20em;
+    background-color: var(--backgroundColor);
+    width: 1em;
+    margin-bottom: 10px;
+    position: relative;
+} 
+
+.work-links{
+    padding: 0%;
+}
+
+/* styles all of the label (words) on the boxes and positions it absolute */
+.box-label-1,
+.box-label-2,
+.box-label-3,
+.box-label-5,
+.box-label-6{
+position: absolute;
+top: 27%;
+bottom: 50%;
+right:20%;
+left: 9%;
+color: white;
+font-weight: bold;
+font-size:3em;
+}
+/* react box-label needed a bigger width so that the words fit withing the box */
+#h3-react-box-label-size-exception{
+    width: 65%;
+}
+
+/* styles each box image so that the image apears darker, has borders and box-shadow.  */
+  .box-1 img,
+  .box-2 img,
+  .box-3 img,
+  .box-5 img,
+  .box-6 img{
+    opacity: 0.5;
+    border: solid #e98074;
+    border-style: double;
+    border-width:10px;
+    box-shadow: 10px 5px 5px rgb(32, 30, 30); 
+ }
+
+/* enables box-1 image to increases when the mouse hovers */
+ .box-1 img:hover{
+height: 300px;
+width: 1200px;
+opacity: 2;
+ }
+
+ /* styles and positions the text above box-1 */
+ .box-1 h3{
+  position: absolute;
+  Top: -17%;
+  left: 1%;
+  width: 6em;
+  height: 2em;
+  border: solid #e98074;
+  border-style: double;
+  text-align: center;
+  font-size: 30px;
+  background-color: #e98074;
+  color: white;
+ }
+
+/* enables the boxes to increase in size when the mouse hovers */
+ .box-2 img:hover,  
+ .box-3 img:hover,
+ .box-5 img:hover,
+ .box-6 img:hover{
+    height: 300px;
+    width: 700px;
+    opacity: 2;
+     }
+
+
+/* styles and positions the text above box-2-6 */
+ .box-2 h3,
+ .box-3 h3,
+ .box-5 h3,
+ .box-6 h3  {
+    position: absolute;
+    Top: -35%;
+    left: 5%;
+    width: 6em;
+    height: 2em;
+    border: solid #e98074;
+    border-style: double;
+    text-align: center;
+    font-size: 30px;
+    background-color: #e98074;
+    color: white;
+   }
+
+/* Flex element to organize boxes 2,3,5,6 */
+.flex-container-3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60em;
+}
+
+/* provides customer styling to the boxes-2,3,5,6 */
+.box-2,
+.box-3,
+.box-5,
+.box-6{
+    height: 10em;
+    background-color: var(--backgroundColor);
+    width: 30em;
+    margin: 9px;
+} 
+
+/* Footer .................................................................................. */
+/* creates a flex element and allows the h1 to be side by with the anchor tag */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--backgroundColor);
+    height: 10em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* styles the h1 of the footer  */
+footer h1{
+   border-right: solid black;
+   margin-left: 10%;
+   font-size: 30px;
+   text-align: right;
+   padding-bottom: 2em;
+   padding-right: 14px;
+   padding-top: 10px;
+} 
+
+
+/* 
+Media Responsive section...................................... */
+/* Extra small devices (phones, 600px and down) */
+ @media screen and (max-width:600px){
+ main, article, footer, .footer-container, .flex-container-2,.flex-container-3{
+    flex-direction:column;
+ }
+
+ p{
+   width:46%;
+ }
+
+main{
+    width:197%;
+}
+.box-1{
+    width:187%;
+}
+
+.row-1{
+    width: 0%;
+    }
+.row-2{
+    width: 0%;
+} 
+
+.box-1 img,
+.box-2 img,
+.box-3 img,
+.box-5 img,
+.box-6 img {
+width: 131%;
+}
+
+.box-label-2,
+.box-label-3,
+.box-label-5,
+.box-label-6{
+    right:18%;
+} 
+}
+
