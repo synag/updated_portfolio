@@ -6,11 +6,9 @@
     box-sizing: border-box;
 }
 
-/* background color for the body is light brown */
-/* body{
-    background-color: var(--backgroundColor);
-} */
-
+html {
+    scroll-behavior: smooth;
+  }
 /* Header .................................................................................. */
 
 /* Header color gredient is green */
@@ -22,12 +20,46 @@ header{
 .jumbotron-fluid{
     padding-bottom: 16em;
 }
-.jumbotron, .container{
-    padding-top: 10em;
-    margin-left: 7em;
+ /* .container{
+    /* padding-top: 10em; */
+    /* margin-left: 7em;
+} */ */
+.profileName{
+    margin-left: 5em;
+    padding-bottom: 0EM;
 }
+.display{
+    font-size: 6.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+}
+.lead{
+    margin-bottom: 4em;
+}
+.btn{
+    margin-top: 2em;
+    margin-top: 9em;
+    margin-right: 2em;
+}
+
+.far{
+    padding-left: 12px;
+}
+
+.fa-book{
+    padding-left: 20px;
+}
+
+
 .coverPhoto {
     border-radius: 50%;
+    /* image-rendering: pixelated; */
+    
+    width: 13em;
+    height: 13em;
+    margin-top: 3em;
+    margin-left: 1em;
   }
 /* This styles the H1 "Carl Benbow"  */
 header h1{
@@ -104,7 +136,7 @@ main{
 /* styles the h2 and adds boarder to the right with padding to seperate the p tag text.  */
 .about-me h2 {
     border-right: solid black;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     font-size: 30px;
     text-align: right;
     padding-bottom: 1em;
@@ -120,6 +152,7 @@ main{
     padding-right: 10px;
     line-height: 1.5;
     margin-bottom: 2em;
+    font-size: 30px;
 }
 
 /* Article 1 on the main............................................................. */
@@ -135,7 +168,7 @@ main{
 /* styles the "work" text h2 */
  #work{
     border-right: solid black;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     font-size: 30px;
     text-align: right;
     padding-right: 25px;
