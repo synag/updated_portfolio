@@ -19,6 +19,8 @@ header{
 }
 .jumbotron-fluid{
     padding-bottom: 16em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
  /* .container{
     /* padding-top: 10em; */
@@ -28,14 +30,21 @@ header{
     margin-left: 5em;
     padding-bottom: 0EM;
 }
-.display{
+
+.display-4{
     font-size: 6.5rem;
     font-weight: 300;
     line-height: 1.2;
     text-align: center;
 }
+
+.profileName .row{
+    margin-left: 15em;  
+}
+
 .lead{
     margin-bottom: 4em;
+    text-align: center;
 }
 .btn{
     margin-top: 2em;
@@ -240,7 +249,7 @@ opacity: 2;
   position: absolute;
   Top: -17%;
   left: 1%;
-  width: 6em;
+  width: 20em;
   height: 2em;
   border: solid #e98074;
   border-style: double;
