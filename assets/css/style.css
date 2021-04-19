@@ -17,6 +17,9 @@ header{
   background: -webkit-linear-gradient(to right, #649173, #dbd5a4); 
   background: linear-gradient(to right, #649173, #dbd5a4);  
 }
+.nav-link{
+    margin-left: 2em;
+}
 .jumbotron-fluid{
     padding-bottom: 16em;
     margin-left: 2em;
