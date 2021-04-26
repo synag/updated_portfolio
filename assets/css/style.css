@@ -186,6 +186,7 @@ main{
     padding-right: 25px;
     margin-right: 20px;
     padding-top: 30px;
+    height: 18em;
 }
 
 /* Article 2 on the main............................................................... */
@@ -281,7 +282,7 @@ opacity: 2;
     position: absolute;
     Top: -35%;
     left: 5%;
-    width: 6em;
+    width: 13em;
     height: 2em;
     border: solid #e98074;
     border-style: double;
@@ -291,6 +292,12 @@ opacity: 2;
     color: white;
    }
 
+.btn-deployed-project-hide{
+    visibility: hidden;
+}
+.btn-deployed-project:hover{
+    visibility: visible;
+}
 /* Flex element to organize boxes 2,3,5,6 */
 .flex-container-3{
     display: flex;
@@ -330,8 +337,18 @@ footer h1{
    padding-right: 14px;
    padding-top: 10px;
 } 
+ /* .footer{
+     color:black;
+ } */
+.screenshot{
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
 
-
+ #two-btn{
+    margin-top: 1em;
+}
 /* 
 Media Responsive section...................................... */
 /* Extra small devices (phones, 600px and down) */
