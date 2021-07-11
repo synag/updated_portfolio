@@ -1,6 +1,7 @@
 # updated_portfolio
-  
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
 ## Project Description 
 The professional portfolio site showcases Carl Benbow's application development during his time at the Hopkins Bootcamp. Carl's portfolio provides the critical data points that prove he is employer-ready. 
 
@@ -10,15 +11,15 @@ The professional portfolio site showcases Carl Benbow's application development 
 
 * [Usage](#usage)
 
-* [License](#License)
+* [License](#license)
 
 * [Credits](#Credits)
 
 * [Contribution](#Contribution)
 
-* [Test](#Test)
+* [Test](#test)
 
-* [Question](#Question) 
+* [Question](#question) 
 
 ## Installation
 There are no specific installation instructions.
@@ -37,13 +38,13 @@ Minimum usage requirements.
 The sreenshot for the README Generator  is below. 
 
 ![Portfolio Site](./assets/image/portfolio_screenshot.png)
+![Portfolio Site](./assets/image/screenshot2.png)
 
 ## License
 No License requirements.
 
 ## Credits
 No team members worked on this project and the tools used were HTML, Javascript, CSS, Jquery.
-
 
 ## Contribution
 No contribution requirements.
